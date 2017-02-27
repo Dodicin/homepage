@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Homepage</title>
+        <meta name="description" content="Dodicin's website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+        <div class="wrapper">
+            <div class="index-content text-center">Dum de dum</div>
+        </div>
+
+        <footer>
+          <div class="wrapper">
+
+          <center>
+            <p>
+              <a class="link" href="/about.html">About</a> :: 
+              <a class="link" href="/projects.html">Projects</a> :: 
+              <a class="link" href="//blog.dodic.in">Blog</a>
+            </p>
+          </center>
+
+         <center><p>:: <a class="link" id="more" href="#more" onclick="more();">More</a> ::</p></center>
+
+          <center>
+            <p id="hide">
+               <a class="link" href="https://twitter.com/dodicin">Twitter</a> :: 
+               <a class="link" href="https://soundcloud.com/dodicin">Soundcloud</a> :: 
+               <a class="link" href="http://steamcommunity.com/id/dodicin/">Steam</a> :: 
+               <a class="link" href="https://www.goodreads.com/user/show/23467423-dodicin">Goodreads</a>
+            </p>
+          </center>
+
+          </div>
+        </footer>
+
+        <script>
+        var m=0;
+        var x = document.getElementById("hide");
+
+        function more()
+        {
+          if(m==0)
+          {
+            x.style.display='block';
+            m=1;
+          }else{
+            x.style.display='none';
+            m=0;
+          }
+        }
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
